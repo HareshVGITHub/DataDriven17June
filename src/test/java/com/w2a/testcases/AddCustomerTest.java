@@ -19,6 +19,7 @@ public class AddCustomerTest extends TestBase {
 		
 		
 		// Testing of Jenkins and github in progress
+		//  This is updated again
 		if(!data.get("runmode").equals("Y")){
 			
 			throw new SkipException("Skipping the test case as the Run mode for data set is NO");
