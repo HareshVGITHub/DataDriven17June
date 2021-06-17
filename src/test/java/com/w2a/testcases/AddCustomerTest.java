@@ -17,6 +17,8 @@ public class AddCustomerTest extends TestBase {
 	@Test(dataProviderClass=TestUtil.class,dataProvider="dp")
 	public void addCustomerTest(Hashtable<String,String> data) throws InterruptedException{
 		
+		
+		// Testing of Jenkins and github in progress
 		if(!data.get("runmode").equals("Y")){
 			
 			throw new SkipException("Skipping the test case as the Run mode for data set is NO");
